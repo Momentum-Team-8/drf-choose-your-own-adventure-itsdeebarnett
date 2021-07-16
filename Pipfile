@@ -10,6 +10,9 @@ pygments = "==2.5.2"
 psycopg2-binary = "*"
 django-on-heroku = "*"
 gunicorn = "*"
+django-environ = "*"
+django-extensions = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 
