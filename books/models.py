@@ -8,7 +8,7 @@ class User(AbstractUser):
         return self.username
 
 
-class Book(models.Model):
+class Books(models.Model):
 
     title = models.CharField(max_length=100)
     author = models.CharField(max_length=100)
