@@ -7,3 +7,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('', include('books.urls')),
 ]
+
+
